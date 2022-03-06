@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pastelería</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Fuentes -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- Css -->
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+
+</head>
+<body>
+
+
+<!-- INICIO Y CARRITO
+    ================================================== -->
+	
+	<section id="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+				</div>
+				<div class="col-md-3 clearfix">
+					<ul class="login-cart">
+						<li>
+							<a data-toggle="modal" data-target="#myModal" href="#">Registrate</a>
+						</li>
+						<li>
+							<div class="cart dropdown">
+						  		<a data-toggle="dropdown" href="#">Carrito</a>
+					  			<div class="dropdown-menu dropup">
+					  				<span class="caret"></span>
+						  			<ul class="media-list">
+								  		<li class="media">
+										    <img class="pull-left" src="images/Pastel-de-chocolate.png" alt="">
+										    <div class="media-body">
+										      	<h6>Pastel de chocolate
+								    				<span>$250</span>
+								    			</h6>
+								    		</div>
+								  		</li>
+									</ul>
+									<button class="btn btn-primary btn-sm">Pagar</button>
+							    </div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div> 
+		</div>	
+
+	
+	<!-- REGISTRO
+    	================================================== -->
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+		    	<div class="modal-content">
+		    		<div class="modal-header">
+		        		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        		<h4 class="modal-title" id="myModalLabel">Introduce tus datos</h4>
+		      		</div>
+			      	<div class="modal-body clearfix">
+
+						<form action="#" method="post" id="create-account_form" class="std">
+							<fieldset>
+								<h3>Crea tu cuenta</h3>
+								<div class="form_content clearfix">
+									<h4>Ingresa tu e-mail.</h4>
+									<p class="text">
+										<label for="email_create">Ingresa tu e-mail</label>
+										<span>
+											<input placeholder="E-mail"  type="text" id="email_create" name="email_create" value="" class="account_input">
+					                    </span>
+									</p>
+									<p class="submit">
+										<button class="btn btn-primary">Crea tu cuenta</button>
+									</p>
+								</div>
+							</fieldset>
+						</form>
+			      		<form action="" method="post" id="login_form" class="std">
+							<fieldset>
+								<h3>Ingresar a mi cuenta</h3>
+								<div class="form_content clearfix">
+									<p class="text">
+									<label for="email">E-mail address</label>
+										<span><input placeholder="E-mail" type="text" id="email" name="email" value="" class="account_input"></span>
+									</p>
+									<p class="text">
+									<label for="passwd">Contraseña</label>
+										<span><input placeholder="Contraseña" type="password" id="passwd" name="passwd" value="" class="account_input"></span>
+									</p>
+									<p class="lost_password">
+										<a href="#popab-password-reset" class="popab-password-link">Olvidaste tu contraseña</a>
+									</p>
+									<p class="submit">
+										<button class="btn btn-success">Entrar</button>
+									</p>
+								</div>
+							</fieldset>
+						</form>
+			      	</div>
+			      	<div class="modal-footer">
+			        	<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+			      	</div>
+		    	</div>
+		  	</div>
+		</div>	
+	</section>  
+	
+
+
+	<!-- LOGO 
+    ================================================== -->
+	
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#">
+						<img src="images/Bakery-code-logo.png" alt="logotipo bakery code">
+					</a>
+				</div>	
+			</div>	
+		</div>	
+	</header> 
+
+	
+
+
+	<!-- NAVEGADOR
+    ================================================== -->
+
+	<nav class="navbar navbar-default">
+		<div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Navegador</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div> 
+
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      	<ul class="nav navbar-nav nav-main">
+		        	<li class="active"><a href="#">Vista Clientes</a></li>
+					<li><a href="Dashboard.html">Vista Panadero</a></li>					 				
+		        </ul> 
+		    </div>	
+		</div>	
+	</nav>	
+
+
+	<!-- PRESENTACIÓN
+    ================================================== -->
+
+
+	<section id="slider-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="slider" >
+				    	<img src="images/pasteles2.png" alt="" />				    	
+					</div>	
+				</div>	
+			</div>	
+		</div>	
+	</section> 
+
+
+	
+	<!-- INGREDIENTES
+    ================================================== -->
+
+	<section id="features">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="block">
+						<div class="media">
+							<div class="pull-left" href="#">
+							<i class=" fa fa-foursquare"></i>
+						  	</div>
+						  	<div class="media-body">
+						    	<h4 class="media-heading">Ligeros</h4>
+						    	<p>Una mezcla exacta de ingredientes bajo en azucares .</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="block">
+						<div class="media">
+							<div class="pull-left" href="#">
+								<i class=" fa fa-foursquare"></i>
+						  	</div>
+						  	<div class="media-body">
+						    	<h4 class="media-heading">Ingredientes de calidad</h4>
+						    	<p>Ingredientes frescos, naturales y de alta calidad.</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="block">
+						<div class="media">
+							<div class="pull-left" href="#">
+						    	<i class=" fa fa-phone"></i>
+						  	</div>
+						  	<div class="media-body">
+						    	<h4 class="media-heading">A un clic de distancia</h4>
+						    	<p>Servicio local y a domicilio.</p>
+						  </div>	
+						</div>	
+					</div>	
+				</div> 
+			</div>	
+		</div>	
+	</section>	
+
+
+	
+		<!-- PASTELES
+    ================================================== -->
+
+	<section id="products">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="products-heading">
+						<h2>NUESTROS PASTELES</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/PASTEL-PRESENTACIÓN-1.png" alt="">
+						</a>
+						<a href="single-product.html">
+							<h4>Trufa de chocolate</h4>
+						</a>
+						<p class="price">Costo: $280</p>
+						<a class="view-link shutter" href="#">
+							<i class="fa fa-plus-circle"></i>Agregar</a>
+					</div>	
+				</div>	
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/PASTEL-PRESENTACIÓN-2.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Panque de chocolate</h4>
+						</a>
+						<p class="price">Costo: $199</p>
+						<a class="view-link shutter" href="#">
+							<i class="fa fa-plus-circle"></i>Agregar</a>
+					</div>	
+				</div> 
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/PASTEL-PRESENTACIÓN-3.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Pastel Fresas bajo en grasa</h4>
+						</a>
+						<p class="price">Costo: $390</p>
+						<a class="view-link shutter" href="#">
+							<i class="fa fa-plus-circle"></i>Agregar</a>
+					</div>	
+				</div> 
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/PASTEL-PRESENTACIÓN-4.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Pastel unicornio</h4>
+						</a>
+						<p class="price">Costo: $399</p>
+						<a class="view-link shutter" href="#">
+							<i class="fa fa-plus-circle"></i>Agregar</a>
+					</div>	
+				</div> 
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/PASTEL-PRESENTACIÓN-5.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Panque ligero de fresa</h4>
+						</a>
+						<p class="price">Costo: $299</p>
+						<a class="view-link shutter" href="#">
+							<i class="fa fa-plus-circle"></i>Agregar</a>
+					</div>	
+				</div> 
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/PASTEL-PRESENTACIÓN-6.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Horneado de 3 chocolates</h4>
+						</a>
+						<p class="price">Costo: $499</p>
+						<a class="view-link shutter" href="#">
+							<i class="fa fa-plus-circle"></i>Agregar</a>
+					</div>	
+				</div> 
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/PASTEL-PRESENTACIÓN-7.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Frutal</h4>
+						</a>
+						<p class="price">Costo: $599</p>
+						<a class="view-link shutter" href="#">
+							<i class="fa fa-plus-circle"></i>Agregar</a>
+					</div>	
+				</div> 
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/PASTEL-PRESENTACIÓN-8.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Cup cakes</h4>
+						</a>
+						<p class="price">Costo: $39.99</p>
+						<div >
+							<a class="view-link shutter" href="#">
+							<i class="fa fa-plus-circle"></i>Agregar</a>
+						</div>
+					</div>	
+				</div> 
+			</div>	
+		</div>	
+	</section>	
+
+
+	
+	
+		<!-- FORMULARÍO
+    ================================================== -->
+
+	<section id="call-to-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="block">
+						<div class="block-heading">
+							<h2>Realiza tu pedido</h2>
+						</div>
+					</div>	
+					<div class="centrar">
+						<div>
+						<form action="#"  >
+							<div class="centrar" >
+								<p>Nombre</p>
+								<input type="text" placeholder="Ingresa tu nombre" required minlength="3" maxlength="20">
+							</div>
+							<div class="centrar">
+								<p>E-mail</p>
+								<input type="email" placeholder="Ingresa tu E-mail" required maxlength="30">
+							</div>
+							<div class="centrar">
+								<p>Teléfono</p>
+								<input type="number" name="telefono" pattern="[0-9]{9}" max="10" placeholder="Ingresa tu teléfono" required >
+							</div>
+							<div class="centrar">
+								<p>Escoje la presentación</p>
+								<label for="ninguno"><input id="ninguno" name="ninguno-boda-cumpleaños-reunion" type="radio" value="Ninguno" checked>Ninguno</label>
+								<label for="boda"><input id="boda" name="ninguno-boda-cumpleaños-reunion" type="radio" value="Boda">Boda</label>
+								<label for="cumpleanos"><input id="cumpleanos" name="ninguno-boda-cumpleaños-reunion" type="radio" value="Cumpleanos">Cumpleaños</label>
+								<label for="reunion"><input id="reunion" name="ninguno-boda-cumpleaños-reunion" type="radio" value="Reunion">Reunión</label>
+							</div>
+							<div class="centrar">
+								<p>Agregar a mi pedido</p>
+								<label for="ninguno0"><input id="ninguno0" name="ninguno0" type="checkbox" value="Ninguno0" checked>Ninguno</label>
+								<label for="Gelatina"><input id="Gelatina" name="Gelatina" type="checkbox" value="Gelatina">gelatina</label>
+								<label for="Cañón de confeti"><input id="Cañón de confeti" name="Cañón de confeti" type="checkbox" value="Cañon de confeti">Cañón de confeti</label>
+								<label for="Vela magica"><input id="Vela magica" name="Vela magica" type="checkbox" value="Vela magica">Vela Mágica</label>
+							</div>
+							<div class="centrar">
+								<p>Comentale al pastelero</p>
+								<input type="hidden">
+							</div>
+							<div class="centrar">
+								<button  type="submit">Enviar</button>
+								<button  type="reset">Rehacer</button>
+							</div>
+							
+						</div>
+						</form>
+					</div>
+				</div>	
+			</div> 
+		</div> 
+	</section>	
+	
+	
+
+	<!-- FOOTER INICIO
+    ================================================== -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="block clearfix">
+						<a href="#">
+							<img src="images/bakery-code-logo-2.png" alt="">
+						</a>
+						
+						<h4 class="connect-heading">Conecta con nosotros</h4>
+						<ul class="social-icon">
+							<li>
+								<a class="facebook-icon" href="#">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a class="plus-icon" href="#">
+									<i class="fa fa-google-plus"></i>
+								</a>
+							</li>
+							<li>
+								<a class="twitter-icon" href="#">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a class="pinterest-icon" href="#">
+									<i class="fa fa-pinterest"></i>
+								</a>
+							</li>
+							<li>
+								<a class="linkedin-icon" href="#">
+									<i class="fa fa-linkedin"></i>
+								</a>
+							</li>
+						</ul>	
+					</div>	
+				</div> 
+				<div class="col-md-4">
+					<div class="block">
+						<h4>Información</h4>
+						<p ><i class="fa  fa-map-marker"></i> <span>México, CDMX</span> Domicilio bla </p>
+						<p> <i class="fa  fa-phone"></i> <span>Télefono:</span> (+52) 00 00 00 00</p>
+						<p class="mail"><i class="fa  fa-envelope"></i><span>E-mail:</span> info@bakerycode.com</p>
+					</div>	
+				</div> 
+				<div class="col-md-4">
+					<div class="block">
+						<h4>Un placer al paladar</h4>
+						<div class="media">
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/pasteles2.png" alt="...">
+						  	</a>					  	
+						</div>	
+					</div>	
+				</div> 
+			</div> 
+		</div> 
+		
+
+
+	<!-- FOOTER FIN
+    ================================================== -->
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">		
+				</div>		
+			</div>	
+		</div>
+	</footer> 	
+	<a id="back-top" href="#"></a>
+
+
+</body>
+</html>

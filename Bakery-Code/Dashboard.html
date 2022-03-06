@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vista panadero</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Fuentes -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- Css -->
+		
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	
+</head>
+<body>
+
+
+<!-- INICIO
+    ================================================== -->
+	
+	<section id="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					
+				</div>
+				<div class="col-md-3 clearfix">
+					<ul class="login-cart">
+						<li>
+							<a data-toggle="modal" data-target="#myModal" href="#">
+								Ver perfil
+							</a>
+						</li>
+						<li>
+							<div class="cart dropdown">
+						  		<a data-toggle="dropdown" href="#">Carrito</a>
+					  			<div class="dropdown-menu dropup">
+					  				<span class="caret"></span>
+						  			<ul class="media-list">
+								  		<li class="media">
+										    <img class="pull-left" src="images/PASTEL-PRESENTACIÓN-7.png" alt="">
+										    <div class="media-body">
+										      	<h6>Pastel de moca
+								    				<span>$250</span>
+								    			</h6>
+								    		</div>
+								  		</li>
+									</ul>
+									<button class="btn btn-primary btn-sm">Comprar</button>
+							    </div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div> 
+		</div>	
+
+	
+	<!-- VISTA PANADERO
+    	================================================== -->
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+		    	<div class="modal-content">
+		    		<div class="modal-header">
+		        		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        		<h4 class="modal-title" id="myModalLabel">Ingresa o Registrate</h4>
+		      		</div>
+			      	<div class="modal-body clearfix">
+
+						<form action="#" method="post" id="create-account_form" class="std">
+							<fieldset>
+								<h3>Crea tu cuenta</h3>
+								<div class="form_content clearfix">
+									<h4>Ingresa tu E-mail.</h4>
+									<p class="text">
+										<label for="email_create">E-mail</label>
+										<span>
+											<input placeholder="E-mail address"  type="text" id="email_create" name="email_create" value="" class="account_input">
+					                    </span>
+									</p>
+									<p class="submit">
+										<button class="btn btn-primary">Crear cuenta</button>
+									</p>
+								</div>
+							</fieldset>
+						</form>
+			      		<form action="" method="post" id="login_form" class="std">
+							<fieldset>
+								<h3>Ya tienes una cuenta</h3>
+								<div class="form_content clearfix">
+									<p class="text">
+									<label for="email">E-mail </label>
+										<span><input placeholder="E-mail address" type="text" id="email" name="email" value="" class="account_input"></span>
+									</p>
+									<p class="text">
+									<label for="passwd">Contraseña</label>
+										<span><input placeholder="Password" type="password" id="passwd" name="passwd" value="" class="account_input"></span>
+									</p>
+									<p class="lost_password">
+										<a href="#popab-password-reset" class="popab-password-link">Olvidate tu contraseña?</a>
+									</p>
+									<p class="submit">
+										<button class="btn btn-success">Entrar</button>
+									</p>
+								</div>
+							</fieldset>
+						</form>
+			      	</div>
+			      	<div class="modal-footer">
+			        	<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+			      	</div>
+		    	</div>
+		  	</div>
+		</div>	
+	</section>  
+	
+
+
+	<!-- LOGO 
+    ================================================== -->
+	
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#">
+						<img src="images/Bakery-code-logo.png" alt="logo">
+					</a>
+				</div>	
+			</div>	
+		</div>	
+	</header> 
+
+	
+
+
+	<!-- NAVEGADOR
+    ================================================== -->
+
+	<nav class="navbar navbar-default">
+		<div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Navegación</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div> 
+
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      	<ul class="nav navbar-nav nav-main">
+		        	<li ><a href="index.html">Inicio</a></li>	
+		        </ul> 
+		    </div>	
+		</div>	
+	</nav>	
+	<section id="topic-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1>Bienvenido panadero</h1>
+					<p>Ultimos pedidos</p>
+				</div>	
+			</div>	
+		</div>	
+	</section>
+
+
+
+	<!-- DASHBOARD
+    ================================================== -->
+
+	<section id="shop">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="products-heading">
+						<h2>Ultimos pedidos realizados</h2>
+					</div>	
+					<div class="product-grid">
+					    <ul>
+					        <li>
+					            <div class="products">
+									<a href="#">
+										<img src="images/PASTEL-PRESENTACIÓN-1.png" alt="">
+									</a>
+									<a href="#">
+										<h4>Nombre: Ana Dalia</h4>
+									</a>
+									<p class="price">Orden: #5656</p>
+									<p class="price">06/03/22</p>
+									<p class="price">13:59 pm</p>
+									<div >
+										<a class="view-link shutter" href="#">
+										Ver detalles de envío</a>
+									</div>
+								</div>	
+					        </li>
+					        <li>
+					            <div class="products">
+									<a href="#">
+										<img src="images/PASTEL-PRESENTACIÓN-2.png" alt="">
+									</a>
+									<a href="#">
+										<h4>Nombre: Luis</h4>
+									</a>
+									<p class="price">Orden: #5655</p>
+									<p class="price">06/03/22</p>
+									<p class="price">09:10 am</p>
+									<div >
+										<a class="view-link shutter" href="#">
+										<i class="fa fa-plus-circle"></i>Ver detalle de envío</a>
+									</div>
+								</div>	
+					        </li>
+					        <li>
+					            <div class="products">
+									<a href="#">
+										<img src="images/PASTEL-PRESENTACIÓN-3.png" alt="">
+									</a>
+									<a href="#">
+										<h4>Nombre: Ana Sofía</h4>
+									</a>
+									<p class="price">Orden: #5654</p>
+									<p class="price">05/03/22</p>
+									<p class="price">16:41 pm</p>
+									<div >
+										<a class="view-link shutter" href="#">
+										<i class="fa fa-plus-circle"></i>Ver detalle de envío</a>
+									</div>
+								</div>	
+					        </li>
+					        <li>
+					            <div class="products">
+									<a href="#">
+										<img src="images/PASTEL-PRESENTACIÓN-4.png" alt="">
+									</a>
+									<a href="#">
+										<h4>Nombre: Pablo Escobar</h4>
+									</a>
+									<p class="price">Orden:5653</p>
+									<p class="price">05/03/22</p>
+									<p class="price">10:35 am</p>
+									<div >
+										<a class="view-link shutter" href="#">
+										<i class="fa fa-plus-circle"></i>Ver detalle de envío</a>
+									</div>
+								</div>	
+					        </li>
+					        <li>
+					            <div class="products">
+									<a href="#">
+										<img src="images/PASTEL-PRESENTACIÓN-5.png" alt="">
+									</a>
+									<a href="#">
+										<h4>Nombre: Zoé Larregui</h4>
+									</a>
+									<p class="price">Orden:5652</p>
+									<p class="price">05/03/22</p>
+									<p class="price">20:00 pm</p>
+									<div >
+										<a class="view-link shutter" href="#">
+										<i class="fa fa-plus-circle"></i>Ver detalle de envío</a>
+									</div>
+								</div>	
+					        </li>
+					        <li>
+					           <div class="products">
+									<a href="#">
+										<img src="images/PASTEL-PRESENTACIÓN-6.png" alt="">
+									</a>
+									<a href="#">
+										<h4>Nombre: Carlos Martinez</h4>
+									</a>
+									<p class="price">Orden:5651</p>
+									<p class="price">05/03/22</p>
+									<p class="price">11:35 am</p>
+									<div >
+										<a class="view-link shutter" href="#">
+										<i class="fa fa-plus-circle"></i>Ver detalle de envío</a>
+									</div>
+								</div>	
+					        </li>					        
+					    </ul>
+					</div>					
+					<div class="pagination-bottom">
+						<ul class="pagination">
+						  	<li class="disabled"><a href="#">&laquo;</a></li>
+						  	<li class="active"><a href="#">1 <span class="sr-only"></span></a></li>
+						  	<li><a href="#">2</a></li>
+						  	<li><a href="#">3</a></li>
+						  	<li><a href="#">4</a></li>
+						  	<li><a href="#">»</a></li>
+						</ul>	
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="blog-sidebar">
+						<div class="block">
+							<h4>Dashboard</h4>
+							<div class="list-group">
+								<a href="#" class="list-group-item">
+									<i class="fa  fa-dot-circle-o"></i>
+									Entregados
+								</a>
+								<a href="#" class="list-group-item">
+									<i class="fa  fa-dot-circle-o"></i>
+									Buscar por # de orden
+								</a>
+								<a href="#" class="list-group-item">
+									<i class="fa  fa-dot-circle-o"></i>
+									Diagnostico de ventas
+								</a>
+								<a href="#" class="list-group-item">
+									<i class="fa  fa-dot-circle-o"></i>
+									Visitas y KPIs
+								</a>
+							</div>
+						</div>
+						<div class="block">
+							<img src="images/Bakery-code-logo.png" alt="">
+						</div>
+						<div class="block">
+							<h4>Productos estrella mensual</h4>
+							<ul class="media-list">
+							 	<li class="media">
+							    	<a class="pull-left" href="#">
+							      		<img class="media-object" src="images/PASTEL-PRESENTACIÓN-6.png" alt="...">
+							    	</a>
+							    	<div class="media-body">
+							      		<a href="" class="media-heading">Pastel horneado
+							      		<p>543 vendidos</p></a>
+							    	</div>
+							  	</li>
+							  	<li class="media">
+							    	<a class="pull-left" href="#">
+							      		<img class="media-object" src="images/PASTEL-PRESENTACIÓN-4.png" alt="...">
+							    	</a>
+							    	<div class="media-body">
+							      		<a href="" class="media-heading"> Pastel Infantil
+							      		<p>423 vendidos</p></a>
+							    	</div>
+							  	</li>
+							  	<li class="media">
+							    	<a class="pull-left" href="#">
+							      		<img class="media-object" src="images/PASTEL-PRESENTACIÓN-8.png" alt="...">
+							    	</a>
+							    	<div class="media-body">
+							      		<a href="" class="media-heading">
+							      		Cup cakes
+							      		<p>405 vendidos</p>
+
+							      		</a>
+							    	</div>
+							  	</li>
+							  </ul>
+						</div>
+				</div>	
+			</div>	
+		</div>	
+	</section>	
+
+
+	
+
+
+	
+
+
+
+
+
+<!-- FOOTER inicio
+    ================================================== -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="block clearfix">
+						<a href="#">
+							<img src="images/bakery-code-logo-2.png" alt="">
+						</a>
+						<h4 class="connect-heading">Conecta con nosotros</h4>
+						<ul class="social-icon">
+							<li>
+								<a class="facebook-icon" href="#">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a class="plus-icon" href="#">
+									<i class="fa fa-google-plus"></i>
+								</a>
+							</li>
+							<li>
+								<a class="twitter-icon" href="#">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a class="pinterest-icon" href="#">
+									<i class="fa fa-pinterest"></i>
+								</a>
+							</li>
+							<li>
+								<a class="linkedin-icon" href="#">
+									<i class="fa fa-linkedin"></i>
+								</a>
+							</li>
+						</ul>	
+					</div>	
+				</div> 
+				<div class="col-md-4">
+					<div class="block">
+						<h4>Información</h4>
+						<p ><i class="fa  fa-map-marker"></i> <span>México, CDMX </span>Domicilio bla</p>
+						<p> <i class="fa  fa-phone"></i> <span>Télefono:</span> (+52) 00 00 00 00 </p>
+						<p class="mail"><i class="fa  fa-envelope"></i>E-mail: <span>info@bakerycode.com</span></p>
+					</div>	
+				</div> 
+				<div class="col-md-4">
+					<div class="block">
+						<h4>Un placer al paladar</h4>
+						<div class="media">
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/pasteles2.png" alt="...">
+						  	</a>
+						</div>	
+					</div>	
+				</div> 
+			</div> 
+		</div> 
+		
+
+
+	<!-- Footer fin
+    ================================================== -->
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+					</div>	
+				</div>		
+			</div>	
+		</div>	
+	</footer> 
+	
+	<a id="back-top" href="#"></a>
+</body>
+</html>
